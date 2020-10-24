@@ -20,7 +20,8 @@ class dashboard(QWidget):
         ui_file.open(QFile.ReadOnly)
         loader.load(ui_file, self)
         ui_file.close()
-# main Entry of app
+
+# main Entry of application
 if __name__ == "__main__":
     app = QApplication([])
     widget = dashboard()
